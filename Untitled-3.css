@@ -1,0 +1,659 @@
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body {
+
+background-color:#f5f5f5 ;
+font-family: sans-serif;
+
+}
+
+p {
+
+color: #4e4e4e;
+
+}
+
+/* header */
+
+
+.nav-link , .navbar-brand {
+
+color: white !important;
+
+}
+
+.photologo {
+
+background: linear-gradient(to top , rgba(0, 0, 0, 0.616) , rgba(0, 0, 0, 0.603) ),url(1.jpg);
+background-position: 50%;
+background-size: cover;
+height: 100vh;
+background-attachment: fixed;
+
+}
+
+
+
+.container {
+
+transform: translateX(-50%);
+
+}
+
+.theside {
+
+font-size: 3rem;
+
+}
+.someicons {
+
+background-color: rgba(0, 0, 0, 0.473);
+cursor: pointer;
+
+}
+.webdeveloper {
+
+font-size: 3rem;
+font-weight: 100;
+color: white;
+
+
+}
+
+.webdeveloper::after {
+
+content: "";
+animation: move 5s infinite;
+transition: all 2s;
+font-size: 2.5rem;
+color: white;
+
+}
+
+@keyframes move {
+
+1% {content: "D|";}
+2% {content: "De|";}
+3% {content: "Deve|";}
+4% {content: "Devel|";}
+5% {content: "Develo|";}
+6% {content: "Develop|";}
+7% {content: "Develope|";}
+8% {content: "Developer|";}
+25% {content: "Developer|";}
+26% {content: "Develope|";}
+27% {content: "Develop|";}
+28% {content: "Develo|";}
+29% {content: "Devel|";}
+30% {content: "Deve|";}
+31% {content: "De|";}
+32% {content: "D|";}
+33% {content: "De|";}
+34% {content: "Des|";}
+35% {content: "Desi|";}
+36% {content: "Desig|";}
+37% {content: "Design|";}
+38% {content: "Designe|";}
+39% {content: "Designer|";}
+52% {content: "Designer|";}
+53% {content: "Designe|";}
+54% {content: "Design|";}
+55% {content: "Desig|";}
+56% {content: "Desi|";}
+57% {content: "Des|";}
+58% {content: "De|";}
+59% {content: "D|";}
+60% {content: "|";}
+61% {content: "L|";}
+62% {content: "La|";}
+63% {content: "Lar|";}
+64% {content: "Larr|";}
+65% {content: "Larry|";}
+66% {content: "Larry D|";}
+67% {content: "Larry Da";}
+68% {content: "Larry Dan|";}
+69% {content: "Larry Dani|";}
+70% {content: "Larry Danil|";}
+71% {content: "Larry Danils|";}
+89% {content: "Larry Danils|";}
+90% {content: "Larry Danil|";}
+91% {content: "Larry Dani|";}
+92% {content: "Larry Dan|";}
+93% {content: "Larry Da";}
+94% {content: "Larry D|";}
+95% {content: "Larry|";}
+96% {content: "Larr|";}
+97% {content: "Lar|";}
+98% {content: "La|";}
+99% {content: "L|";}
+100% {content: "|";}
+
+}
+
+
+
+/* about me */
+
+.high {
+
+height: 30px;
+background-color:#f5f5f5 ;
+border-radius: 5px;
+box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.274);
+
+}
+
+.medioum {
+
+height: 30px;
+background-color: black;
+border-radius: 5px;
+width: 95%;
+
+
+}
+
+.smlletion{
+
+display: flex;
+justify-content: space-between;
+margin: 5px 10px;
+
+}
+
+.jet3 {
+
+    width: 90%;
+
+}
+
+.jet2 {
+
+width: 80%;
+
+}
+
+.about {
+
+width: 90%;
+margin: 80px auto;
+
+}
+.btn11 {
+
+transition: all 1s;
+
+
+}
+.btn22 {
+
+    transition: all 1s;
+    
+    
+    }
+
+.btn11:hover {
+
+background-color:white !important;
+border: 1px solid black !important;
+color: black !important;
+
+}
+
+.btn22:hover {
+
+    background-color:black !important;
+color: white;
+
+
+
+}
+
+
+
+.dadpoints {
+
+position: relative;
+background-image: radial-gradient(black 1px, transparent 0);
+background-size: 10px 10px;
+
+}
+
+
+.sdas {
+
+z-index: 10;
+
+
+
+
+}
+
+/* services */
+
+.spa{
+
+margin: 100px 0;
+
+
+}
+
+.birthday:hover .iconServices {
+
+background-color: black;
+color: white;
+
+
+}
+
+.services {
+
+width: 90%;
+
+}
+
+.iconServices {
+
+    background-color:#f5f5f5 ;
+border-radius: 500px;
+padding: 15px;
+font-size: 2rem;
+transition: all 600ms;
+}
+
+.spaces {
+
+margin: 30px 0 20px;
+
+
+}
+
+.good {
+
+    box-shadow: 0 0  15px rgba(0, 0, 0, 0.267);
+
+
+}
+.good span {
+
+transition: all 800ms;
+
+
+}
+
+.good:hover span {
+
+background-color: black;
+color: white;
+
+
+}
+
+.serv {
+
+position: relative;
+
+}
+
+.serv::after {
+opacity: 0.5;
+content: "";
+background-image: radial-gradient(black 1px, transparent 0);
+background-size: 10px 10px;
+height: 60%;
+width: 15%;
+position: absolute;
+bottom: 0;
+left: 50%;
+
+transform: translateX(-50%);
+
+
+
+}
+
+
+/* Portfolio. */
+
+.bigspac {
+
+padding: 100px 0;
+
+}
+
+.curs {
+
+cursor: pointer;
+
+}
+.opacImg {
+
+    position: relative;
+overflow: hidden;
+    transition: all 800ms;
+    
+    }
+.backPotrilio {
+    border: 5px solid rgba(0, 0, 0, 0.295);
+    background-color: rgba(255, 255, 255, 0.205);
+position: absolute;
+transform: translateX(100%);
+top:0;
+right: 0;
+bottom: 0;
+left: 0;
+
+
+}
+
+.opacImg:hover .backPotrilio  {
+
+    transform: translateX(0%);
+
+
+
+}
+
+.opacImg:hover {
+
+opacity: 0.3;
+
+
+}
+
+.design {
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+flex-direction: column;
+
+}
+
+.zoom {
+
+cursor: pointer;
+
+
+
+
+}
+
+
+/* Testimonials. */
+
+
+
+.lkgin {
+
+
+
+
+    line-height: 2rem;
+
+    font-size: 1.5rem;
+    
+    }
+    
+    .slider img {
+    
+    width: 100px;
+    border-radius: 500px;
+    margin:0 auto 15px;
+    
+    }
+    
+    .slider p {
+    
+font-size: 1rem;
+    margin: auto ;
+    
+    }
+    
+    .icon-hangouts {
+    
+    font-size: 3rem;
+    
+    }
+    
+    .active {
+    
+    background-color: black !important;
+    
+    }
+    
+    .carousel-item {
+    
+    background-color: transparent !important
+    
+    }
+    .carousel-inner {
+    
+    padding: 70px 0;
+    
+    }
+    
+
+
+.mmm {
+
+    background-color: rgb(43, 43, 73) !important;
+
+
+}
+
+/* icons */
+
+.wid90 {
+
+    width: 90%;
+    margin: auto;
+    padding: 100px 0;
+    line-height: 2rem;
+
+    }
+
+/* our blog */
+
+.blogwidh {
+
+width: 90%;
+
+
+
+}
+
+.cawe{
+
+cursor: pointer;
+line-height: 2rem;
+}
+
+.transrig{
+
+transition: all 1s;
+
+
+
+}
+
+.transrig:hover {
+
+
+    transform: scale( 1.2 , 1.2 );
+
+}
+
+.hids{
+
+overflow: hidden;
+
+}
+
+/* contact us */
+
+.likes{
+
+background-color: #f1eaeaa6;
+padding: 20px;
+border-radius: 500px;
+transition: all 700ms;
+
+
+
+
+}
+
+.hoverika:hover .likes {
+
+background-color: black;
+color: white;
+
+}
+
+.wid90sda {
+
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+    line-height: 2rem;
+
+    }
+
+.outlino {
+
+outline: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:991px) {
+
+
+
+
+.justborder::after {
+
+content: "";
+background-color: white;
+width: 60%;
+height: 2px;
+position: absolute;
+bottom: 10px;
+left: 50%;
+transform: translateX(-50%);
+
+}
+
+
+
+
+}
+
+
+
+
+@media (max-width:991px) {
+
+
+.navbar-collapse {
+
+background-color: white;
+
+}
+
+.nav-link {
+
+color: black !important ;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
